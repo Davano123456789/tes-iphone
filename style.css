@@ -1,18 +1,16 @@
-
 body {
-    background-image: url('laptop.svg');
+    background-image: url("laptop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-@media (max-width: 800px) {
+    /* Alternatif modern (pertimbangkan untuk browser modern): */
+    /* background-size: cover; */
+    background-position: center;
+  }
+  
+  /* Media query untuk gambar latar responsif */
+  @media (max-width: 800px) {
     body {
-        background-image: url('hp.svg');
-        
+      background-image: url("hp.svg");
     }
-}
+  }
+  
