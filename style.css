@@ -7,7 +7,7 @@ body {
     height: 200vh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     body {
         background-image: url('BG-01-01-Black\ 430x932.svg');
         
