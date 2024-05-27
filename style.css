@@ -1,16 +1,17 @@
 
 body {
-    background-image: url('BG-01-01-Black\ 1366x768.svg');
+    background-image: url('laptop.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 @media (max-width: 800px) {
     body {
-        background-image: url('BG-01-01-Black\ 430x932.svg');
+        background-image: url('hp.svg');
         
     }
 }
